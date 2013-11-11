@@ -401,6 +401,7 @@ public class ShadowView {
     }
   }
 
+  @Implementation
   public boolean isAttachedToWindow() {
     try {
       Field mAttachInfo = View.class.getDeclaredField("mAttachInfo");
